@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 12106, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Tree Data
   m_EditorClassIdentifier: 
-  _uniqueID: 5
+  _uniqueID: 9
   materialHash: 31d6cfe0d16ae931b73c59d7e0c089c0-583008256
   root:
     _uniqueID: 1
@@ -664,6 +664,84 @@ MonoBehaviour:
     parentID: 2
     groupID: 3
     _uniqueID: 4
+  - spline:
+      nodes: []
+      tension: 0.5
+    seed: 3961
+    animSeed: 0.011236007
+    visible: 1
+    triStart: 80
+    triEnd: 84
+    vertStart: 52
+    vertEnd: 60
+    capRange: 0
+    breakOffset: 1
+    size: 0
+    scale: 0.9325473
+    offset: 0.1919192
+    baseAngle: 126.184296
+    angle: 126.184296
+    pitch: -0
+    rotation: {x: 0.07740762, y: -0.08742739, z: 0.006814323, w: 0.99313545}
+    matrix:
+      e00: -0.56913805
+      e01: 0.821013
+      e02: 0.044940818
+      e03: 1.0283102
+      e10: -0.06741274
+      e11: 0.0078805275
+      e12: -0.99769413
+      e13: 0.97647846
+      e20: -0.81947386
+      e21: -0.5708552
+      e22: 0.050861627
+      e23: -0.6361689
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentID: 4
+    groupID: 5
+    _uniqueID: 6
+  - spline:
+      nodes: []
+      tension: 0.5
+    seed: 3961
+    animSeed: 0.011236007
+    visible: 1
+    triStart: 80
+    triEnd: 84
+    vertStart: 52
+    vertEnd: 60
+    capRange: 0
+    breakOffset: 1
+    size: 0
+    scale: 0.9325473
+    offset: 0.1919192
+    baseAngle: 126.184296
+    angle: 126.184296
+    pitch: -0
+    rotation: {x: 0.07740762, y: -0.08742739, z: 0.006814323, w: 0.99313545}
+    matrix:
+      e00: -0.56913805
+      e01: 0.821013
+      e02: 0.044940818
+      e03: 1.0283102
+      e10: -0.06741274
+      e11: 0.0078805275
+      e12: -0.99769413
+      e13: 0.97647846
+      e20: -0.81947386
+      e21: -0.5708552
+      e22: 0.050861627
+      e23: -0.6361689
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentID: 4
+    groupID: 7
+    _uniqueID: 8
   mesh: {fileID: 1933833710446226182}
   optimizedSolidMaterial: {fileID: -656222160557667741}
   optimizedCutoutMaterial: {fileID: 368328443155282209}
