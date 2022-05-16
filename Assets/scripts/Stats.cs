@@ -9,22 +9,27 @@ public class Stats : MonoBehaviour
     public float attackDamage;
     public float attackSpeed;
     public float attackTime;
+    public float expValue;
 
     HeroCombat heroCombatScript;
-
+    GameObject player;
+   
     // Start is called before the first frame update
     void Start()
     {
         heroCombatScript = GameObject.FindGameObjectWithTag("Player").GetComponent<HeroCombat>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (health > 0) {
+        if(health <= 0) {
             Destroy(gameObject);
             heroCombatScript.targetedEnemy = null;
             heroCombatScript.performMeleeAttack = false;
+            //Give Exp
+            //player.GetComponent<LevelUpStats>().SetExperience(expValue);
         }
     }
 }

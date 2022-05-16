@@ -5,7 +5,7 @@ using UnityEngine;
 public class HeroCombat : MonoBehaviour
 {
     public GameObject targetedEnemy;
-    public enum HeroAttackType { Melee, Range };
+    public enum HeroAttackType { Melee, Ranged };
     public HeroAttackType heroAttackType;
     public float attackRange;
     public float rotateSpeedForAttack;
@@ -43,6 +43,7 @@ public class HeroCombat : MonoBehaviour
                 if(heroAttackType == HeroAttackType.Melee) {
                     if(performMeleeAttack) {
                         Debug.Log("Attack Creep");
+                        StartCoroutine(RangedAttackInterval());
                     }
                 }
             }
